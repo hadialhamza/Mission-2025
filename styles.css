@@ -133,10 +133,14 @@ span {
   color: #424242;
 }
 
-/* Develop section style */
-.develop-container {
+/* Develop & Community section style */
+.develop-container,
+.community-container {
   gap: 72px;
   margin-top: 85px;
+}
+.community-image,
+.develop-image {
   position: relative;
 }
 #shape-image {
@@ -146,9 +150,18 @@ span {
   z-index: -1;
   max-width: 227px;
 }
-.develop-image {
+#shape-image2 {
+  position: absolute;
+  bottom: -74px;
+  right: -90px;
+  z-index: -1;
+  max-width: 227px;
+}
+.develop-image,
+.community-image {
   max-width: 400px;
 }
-.develop-image img {
+.develop-image img,
+.community-image img {
   width: 100%;
 }

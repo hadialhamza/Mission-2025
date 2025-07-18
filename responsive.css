@@ -1,6 +1,7 @@
 /* Medium Device */
 @media screen and (max-width: 992px) {
-  .hero-section {
+  .hero-section,
+  .community-container {
     flex-direction: column-reverse;
   }
   .develop-container {
@@ -26,22 +27,25 @@
     gap: 1.25rem;
   }
   #shape-image {
-    display: none;
+    /* display: none; */
   }
-  .develop-content {
+  .develop-content,
+  .community-content {
     width: 90%;
   }
 }
 
 /* Small device */
 @media screen and (max-width: 576px) {
-  .hero-section {
+  .hero-section,
+  .community-container {
     flex-direction: column-reverse;
   }
   .develop-container {
     flex-direction: column;
   }
-  .develop-container {
+  .develop-container,
+  .community-container {
     gap: 40px;
   }
   .hero-content {
@@ -63,7 +67,8 @@
     grid-template-columns: 1fr;
     gap: 1.25rem;
   }
-  #shape-image {
+  #shape-image,
+  #shape-image2 {
     display: none;
   }
 }
