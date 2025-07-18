@@ -3,6 +3,12 @@
   .hero-section {
     flex-direction: column-reverse;
   }
+  .develop-container {
+    flex-direction: column;
+  }
+  .develop-container {
+    gap: 40px;
+  }
   .hero-content {
     width: 100%;
   }
@@ -19,12 +25,24 @@
     grid-template-columns: 1fr;
     gap: 1.25rem;
   }
+  #shape-image {
+    display: none;
+  }
+  .develop-content {
+    width: 90%;
+  }
 }
 
 /* Small device */
 @media screen and (max-width: 576px) {
   .hero-section {
     flex-direction: column-reverse;
+  }
+  .develop-container {
+    flex-direction: column;
+  }
+  .develop-container {
+    gap: 40px;
   }
   .hero-content {
     width: 100%;
@@ -44,5 +62,8 @@
   .mission-card-container {
     grid-template-columns: 1fr;
     gap: 1.25rem;
+  }
+  #shape-image {
+    display: none;
   }
 }
