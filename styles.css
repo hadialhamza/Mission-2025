@@ -3,7 +3,46 @@
 
 .poppins {
   font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 .yeseva-one {
   font-family: "Yeseva One", serif;
+  font-weight: 400;
+}
+
+/* Universal style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Shared style */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.heading-primary {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #13103a;
+}
+.description-primary {
+  font-size: 1.125rem;
+  color: #3e3e3e;
+}
+span {
+  color: #ffad5a;
+}
+
+/* Header section style */
+.hero-section {
+  /* flex: 1; */
 }
