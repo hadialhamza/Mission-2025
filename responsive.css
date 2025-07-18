@@ -1,3 +1,22 @@
+/* Medium Device */
+@media screen and (max-width: 992px) {
+  .hero-section {
+    flex-direction: column-reverse;
+  }
+  .hero-content {
+    width: 100%;
+  }
+  .hero-image {
+    width: 100%;
+  }
+  .hero-image img {
+    width: 80%;
+  }
+  .hero-content h1 {
+    font-size: 2.75rem;
+  }
+}
+
 /* Small device */
 @media screen and (max-width: 576px) {
   .hero-section {
@@ -15,23 +34,8 @@
   .hero-content h1 {
     font-size: 2.75rem;
   }
-}
-
-/* Medium Device */
-@media screen and (min-width: 577px) and (max-width: 992px) {
-  .hero-section {
-    flex-direction: column-reverse;
-  }
-  .hero-content {
-    width: 100%;
-  }
-  .hero-image {
-    width: 100%;
-  }
-  .hero-image img {
-    width: 80%;
-  }
-  .hero-content h1 {
-    font-size: 2.75rem;
+  .mission-card-container {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
   }
 }
