@@ -172,13 +172,39 @@ span {
   text-align: center;
 }
 .corona-container {
-  gap: 120px;
+  gap: 20px;
   padding: 79px 0 79px 100px;
 }
+.corona-content {
+  text-align: left;
+  width: 50%;
+}
 .corona-image {
+  position: relative;
   max-width: 230px;
   margin: 56px 38px 27px 71px;
 }
 .corona-image img {
   width: 100%;
+}
+#corona-shape1 {
+  max-width: 147px;
+  position: absolute;
+  top: -30px;
+  left: -45px;
+  z-index: -1;
+}
+#corona-shape2 {
+  max-width: 77px;
+  position: absolute;
+  bottom: 80px;
+  right: -15px;
+  z-index: -1;
+}
+#corona-shape3 {
+  position: absolute;
+  max-width: 77px;
+  bottom: 10px;
+  left: -15px;
+  z-index: -1;
 }
