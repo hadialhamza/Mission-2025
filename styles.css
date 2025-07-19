@@ -173,7 +173,7 @@ span {
 }
 .corona-container {
   gap: 20px;
-  padding: 79px 0 79px 100px;
+  padding: 79px 0 0 100px;
 }
 .corona-content {
   text-align: left;
@@ -207,4 +207,26 @@ span {
   bottom: 10px;
   left: -15px;
   z-index: -1;
+}
+
+/* Footer section style */
+footer {
+  margin-top: 50px;
+  background-color: #0b0d17;
+  padding: 45px 0;
+}
+.footer-container {
+  text-align: center;
+}
+.footer-title {
+  font-style: italic;
+  color: white;
+  margin-bottom: 24px;
+}
+.footer-title span {
+  color: #ff5959;
+}
+.footer-details {
+  color: #d9dbe1;
+  font-size: 0.875rem;
 }
