@@ -165,3 +165,20 @@ span {
 .community-image img {
   width: 100%;
 }
+
+/* Corona section style */
+.corona-section {
+  margin-top: 85px;
+  text-align: center;
+}
+.corona-container {
+  gap: 120px;
+  padding: 79px 0 79px 100px;
+}
+.corona-image {
+  max-width: 230px;
+  margin: 56px 38px 27px 71px;
+}
+.corona-image img {
+  width: 100%;
+}
