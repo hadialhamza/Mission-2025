@@ -4,7 +4,8 @@
   .community-container {
     flex-direction: column-reverse;
   }
-  .develop-container {
+  .develop-container,
+  .corona-container {
     flex-direction: column;
   }
   .develop-container {
@@ -29,6 +30,12 @@
   .develop-content,
   .community-content {
     width: 90%;
+  }
+  .corona-container {
+    padding: 20px;
+  }
+  .corona-content {
+    width: 80%;
   }
 }
 
@@ -67,5 +74,16 @@
   #shape-image,
   #shape-image2 {
     display: none;
+  }
+  .corona-container {
+    padding: 0;
+  }
+  .corona-content {
+    width: 100%;
+  }
+  #corona-shape1 {
+    max-width: 100px;
+    top: -20px;
+    left: -30px;
   }
 }
