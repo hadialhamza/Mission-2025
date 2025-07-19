@@ -26,9 +26,6 @@
     grid-template-columns: 1fr;
     gap: 1.25rem;
   }
-  #shape-image {
-    /* display: none; */
-  }
   .develop-content,
   .community-content {
     width: 90%;
